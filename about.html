@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./img/favicon.ico">
+    <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./js/jquery.tagcloud.js" charset="utf-8"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/starter-template.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-70604621-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+        <title>非公式マヨイガの里ダイジェスト| 参考ページ
+        </title>
+    
+
+  </head>
+  <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="navbar-brand">非公式マヨイガの里・瓦版</span>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+          <li><a href="index.html">Home<span class="glyphicon glyphicon-home"></span></a></li><li><a href="media.html">絵巻一覧<span class="glyphicon glyphicon-picture"></span></a></li><li><a href="tagcloud.html">１日の話題<span class="glyphicon glyphicon-comment"></span></a></li><li><a href="you.html">イベント<span class="glyphicon glyphicon-asterisk"></span></a></li><li class="active"><a href="about.html">参考ページ<span class="glyphicon glyphicon-th-list"></span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container show-grid">
+        <div class="starter-template">
+          <p><span class="glyphicon glyphicon-grain"></span> 24時間内に千楽で起こったことをダイジェストで見れるページです。 <span class="glyphicon glyphicon-time"></span>最終更新時間:2016-01-31 11:23:01.669420</p>
+        </div>
+        
+    <div class="row">
+        <div class="row show-grid">
+          <div class="col-md-6">
+              <h3>実装したいなって思っているだけ</h3>
+              <p><span class="glyphicon glyphicon-paperclip"></span>次やろうかなと思っているやつ</p>
+              <ul>
+                  <li>絵巻: もう少しいい感じに表示されるように調整</li>
+                  <li><span class="glyphicon glyphicon-paperclip"></span>参加者一覧（キャラシリンク付き）</li>
+                  <li><span class="glyphicon glyphicon-paperclip"></span>絵巻：削除されたやつを消す方法</li>
+                  <li>タグクラウド: 日付で区切ったページを作る。メインは常に24時間内で後で振り返る用</li>
+                  <li>絵巻: 拡大画像をポップアップで表示する</li>
+                  <li>絵巻: 日付とかユーザー別に検索が出来るJS。後は人気(fav)ランクにソートする機能とか？</li>
+                  <li>仲良しさん: 実装したいなーと思って早3000年</li>
+                  <li>参加者別よく出現する時間帯: よく出没する時間を調べて待ち伏せ、ストーカー出来るかもしれない</li>
+              </ul>
+              <h3>作業した・実装した</h3>
+              <ul>
+                  <li>日別ページは廃止しました</li>
+                  <li><s>よくお喋りしていると上位20人を表示してみた</s></li>
+                  <li>タグクラウド:トップに人気のキーワード何件か表示</li>
+                  <li>見やすく全体的に変更</li>
+                  <li>話題のハッシュタグ一覧</li>
+                  <li>絵巻: pinterestみたいなUI</li>
+                  <li><a href="http://jinja.pocoo.org/docs/dev/tricks/">ナビゲーションにこれつける</a></li>
+                  <li>タグクラウド：辞書入れ替えた</li>
+                  <li>絵巻: 日付で区切ったページを作る。メインは常に24時間内で後で振り返る用</li>
+                  <li>タグクラウド: MeCab入れて動かす</li>
+              </ul>
+              <h3>使用したツール、アプリなど</h3>
+              <ul class="list-inline">
+                  <li><a href="http://taku910.github.io/mecab/" target="_blank">MeCab<span class="glyphicon glyphicon-link"></span></a></li>
+                  <li><a href="https://github.com/neologd/mecab-ipadic-neologd" target="_blank">Neologism<span class="glyphicon glyphicon-link"></span></a></li>
+                  <li><a href="https://www.mongodb.org/" target="_blank">MongoDB<span class="glyphicon glyphicon-link"></span></a></li>
+                  <li><a href="https://dev.twitter.com/rest/public" target="_blank">Twitter API<span class="glyphicon glyphicon-link"></span></a></li>
+                  <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap<span class="glyphicon glyphicon-link"></span></a></li>
+                  <li><a href="http://docs.python.jp/3/index.html" target="_blank">Python 3.4.3<span class="glyphicon glyphicon-link"></span></a></li>
+                  <li><a href="https://aws.amazon.com/jp/documentation/s3/" target="_blank">Amazon Simple Storage Service<span class="glyphicon glyphicon-link"></span></a></li>
+                  <li><a href="http://vps.sakura.ad.jp/" target="_blank">さくらVPS<span class="glyphicon glyphicon-link"></span></a></li>
+                  <li><s><a href="http://masonry.desandro.com/" target="_blank">Masonry<span class="glyphicon glyphicon-link"></span></a></s></li>
+
+
+              </ul>
+          </div>
+          <div class="col-md-6" id="about">
+            <h3>マヨイガの里について</h3>
+            <p>参考リンク</p>
+            <ul>
+              <li><a href="http://www.pixiv.net/member_illust.php?mode=medium&illust_id=52764855" target="_blank"><span class="glyphicon glyphicon-eye-open">マヨイガの里公式目録</span></a></li>
+              <li><a href="https://twitter.com/mayoiganosato" target="_blank"><span class="glyphicon glyphicon-user">マヨイガの里公式主催者Twitterアカウント</span></li>
+              <li><a href="https://twitter.com/myigfk" target="_blank"><span  class="glyphicon glyphicon-user">マヨイガの里公式副主催者Twitterアカウント</span></a></li>
+              <li><a href="https://twitter.com/myig_k" target="_blank"><span class="glyphicon glyphicon-pencil">壁打ち</span></a></li>
+              <li><a href="https://shindanmaker.com/572011" target="_blank"><span class="glyphicon glyphicon-certificate">九十九社【おみくじ】</span></a>
+            </ul>
+            <h3>非公式マヨイガの里ダイジェストとは</h3>
+            <p>このサイトは<a href="https://twitter.com/azusa_mayoiga">梓</a>で参加している<a href="https://twitter.com/p0p0wa">popowa</a>が、全然まったくびっくりするほどなりきり出来ない事を糧に作ったダイジェストです。<br />
+                この内容は梓アカウントでフォローしている方のツイートを取得し解析してHTMLとして出力しています。<br />
+                1時間1回更新(20分ぐらい)しています<br />
+            <p><span class="glyphicon glyphicon-warning-sign"></span>要望、クレームについて</p>
+
+            <p>本サイトはマヨイガの里の主催者様とは関係ありません。要望、クレームがあれば梓のDMもしくはpopowa(鍵垢ではありません)にお知らせ下さい。</br>
+                例えば以下の事は対応可能です。<p>
+                    <ul>
+                        <li>自分のツイートは対象外にして欲しい</li>
+                    </ul>
+                </p>
+          </div>
+
+    </div>
+
+        <div class="col-md-12">
+            <footer>コンテンツ内容は、マヨイガの里に参加しているユーザーに属します。</footer>
+        </div>
+
+    </div><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!--<script src="./js/masonry.pkgd.min.js" charset="utf-8"></script>-->
+
+  </body>
+</html>
